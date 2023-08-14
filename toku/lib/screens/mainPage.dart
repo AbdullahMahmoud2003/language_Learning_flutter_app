@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:toku/screens/colorsPage.dart';
 import 'package:toku/screens/familyPage.dart';
 import 'package:toku/screens/numbersPage.dart';
+import 'package:toku/screens/phrasesPage.dart';
 
 import '../components/category.dart';
 
@@ -55,7 +57,7 @@ class mainPage extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (BuildContext context) {
-                    return numbers();
+                    return colors();
                   },
                 ),
               );
@@ -69,7 +71,7 @@ class mainPage extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (BuildContext context) {
-                    return numbers();
+                    return phrases();
                   },
                 ),
               );

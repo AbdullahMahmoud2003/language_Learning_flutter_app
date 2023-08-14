@@ -22,11 +22,11 @@ class familyContainer extends StatelessWidget {
               children: [
                 Text(
                   member.jp,
-                  style: TextStyle(color: Colors.white, fontSize: 22),
+                  style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
                 Text(
                   member.en,
-                  style: TextStyle(color: Colors.white, fontSize: 22),
+                  style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
               ],
             ),
