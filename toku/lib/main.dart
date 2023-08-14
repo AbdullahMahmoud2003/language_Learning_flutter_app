@@ -1,19 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:toku/screens/home_page.dart';
+import 'package:toku/screens/mainPage.dart';
 
 void main() {
-  runApp(TokuApp());
+  runApp(toku());
 }
 
-class TokuApp extends StatelessWidget {
-  const TokuApp({Key? key}) : super(key: key);
-
+class toku extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:HomePage() ,
+      home: mainPage(),
     );
   }
 }
-
